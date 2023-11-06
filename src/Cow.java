@@ -13,13 +13,13 @@ public class Cow {
     public Cow(){
         this.name = "Unknown";
         this.weight = 0;
-        this. age = 0;
+        this.age = 0;
         this.gender = false;
     }
     public Cow(String name, double weight, int age, boolean gender){
         this.name = name;
         this.weight = weight;
-        this. age = age;
+        this.age = age;
         this.gender = gender;
     }
 
@@ -32,7 +32,7 @@ public class Cow {
         this.age ++;
     }
     public void displayCow(){
-        System.out.println("Name:" + name + " Weight:" + weight + " Age:" + age + " Gender:" + gender);
+        System.out.println("Name:" + name + "\nWeight:" + weight + "\nAge:" + age + "\nGender:" + gender);
     }
 
 }
