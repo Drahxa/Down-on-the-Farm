@@ -34,5 +34,5 @@ public class Cow {
     public void displayCow(){
         System.out.println("Name:" + name + " Weight:" + weight + " Age:" + age + " Gender:" + gender);
     }
-        //init commit
+
 }
